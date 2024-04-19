@@ -52,6 +52,8 @@
 
 .connect {
   margin-bottom: 2rem;
+  color: -webkit-linear-gradient(#bfa3da, #84309c, #c735b0);
+  background: -webkit-linear-gradient(#bfa3da, #84309c, #c735b0);
 }
 
 .description {
