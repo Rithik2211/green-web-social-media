@@ -17,7 +17,6 @@ function NavBar(){
     const handleHamClick = () => {
         setOpen(!open);
     }
-
     const handleHamNav = (link) => () => {
         setOpen(!open);
         navigate(link);
@@ -52,8 +51,14 @@ function NavBar(){
                         <MobileLink onClick={handleHamNav("/NFTStore")}>NFT Store</MobileLink>
                         <MobileLink onClick={handleHamNav("/Messages")}>Messages</MobileLink>
                         <MobileLink onClick={handleHamNav("/Post")}>New Post</MobileLink>
-                        <MobileLink onClick={handleHamNav("/")}>Profile</MobileLink>
-                        <MobileLink onClick={disconnect}>Disconnect</MobileLink>
+                        {
+                            address &&   <MobileLink onClick={handleHamNav("/")} >Profile</MobileLink>
+                        }
+                        {
+                            address ? <MobileLink onClick={disconnect}>Disconnect</MobileLink>  :
+                            <ConnectWallet theme={"light"} className="custom-connect-wallet" style={{padding : "1px 5px", width: "20%", backgroundColor: "#E5E8EB", borderColor: "transparent", color: "black"}}/>
+                        }
+                        
                     </MobileList>
                 }
             </NavContainer>
