@@ -1,11 +1,3 @@
-.NavBar{
-    height: 80px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1rem;
-    position: sticky;
-    top: 0;
-    z-index: 10;
+.custom-connect-wallet .css-bi7z90 span {
+    color: black !important;
 }

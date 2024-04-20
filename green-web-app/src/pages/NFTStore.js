@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Notification(){
+function NFTStore(){
     return(<div>
         NFT Store Page
     </div>) 
 }
-export default Notification;
+export default NFTStore;

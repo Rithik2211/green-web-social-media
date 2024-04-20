@@ -1,4 +1,4 @@
 export {default as Home} from './Home';
-export {default as Explore} from './Explore';
-export {default as Notification} from './Notification';
+export {default as Post} from './Post';
+export {default as NFTStore} from './NFTStore';
 export {default as Messages} from './Messages';
