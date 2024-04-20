@@ -1,8 +1,8 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import App from "./App";
 import { ThirdwebProvider } from "@thirdweb-dev/react";
 import "./styles/globals.css";
+import LandingPage from './pages/landing-page';
 
 const activeChain = "ethereum";
 
@@ -14,7 +14,7 @@ root.render(
       activeChain={activeChain}
       clientId={process.env.REACT_APP_TEMPLATE_CLIENT_ID}
     >
-      <App />
+      <LandingPage />
     </ThirdwebProvider>
   </React.StrictMode>
 );

@@ -4,9 +4,7 @@ import "./styles/Home.css";
 export default function Home() {
   return (
     <main className="main">
-      <div className="container">
-        <div className="header">
-          <h1 className="title">
+       <h1 className="title">
             Welcome to{" "}
             <span className="gradient-text-0">
               thirdweb.
@@ -15,8 +13,6 @@ export default function Home() {
           <div className="connect">
             <ConnectWallet />
           </div>
-        </div>
-      </div>
     </main>
   );
 }
