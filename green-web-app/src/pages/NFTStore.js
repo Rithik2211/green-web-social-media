@@ -1,8 +1,10 @@
 import React from 'react';
 
 function NFTStore(){
-    return(<div>
-        NFT Store Page
-    </div>) 
+    return(
+        <div>
+            NFT Art Work
+        </div>
+    ) 
 }
 export default NFTStore;

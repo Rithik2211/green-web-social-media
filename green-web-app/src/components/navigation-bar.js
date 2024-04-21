@@ -3,7 +3,7 @@ import "./component.css";
 import { useNavigate } from 'react-router-dom';
 import { Nav, NavContainer, NavBody, NavText, NavButton, NavImg, NavHam, MobileList, MobileLink } from './styled-components';
 import { profile, green, hamburger } from '../assests/index';
-import { ConnectWallet, useAddress, useDisconnect } from "@thirdweb-dev/react";
+import { ConnectWallet, inAppWallet, useAddress, useDisconnect } from "@thirdweb-dev/react";
 
 function NavBar(){
     let navigate = useNavigate();
@@ -56,9 +56,16 @@ function NavBar(){
                         }
                         {
                             address ? <MobileLink onClick={disconnect}>Disconnect</MobileLink>  :
-                            <ConnectWallet theme={"light"} className="custom-connect-wallet" style={{padding : "1px 5px", width: "20%", backgroundColor: "#E5E8EB", borderColor: "transparent", color: "black"}}/>
+                            <ConnectWallet 
+                                theme={"light"} 
+                                className="custom-connect-wallet" 
+                                style={{padding : "1px 5px", width: "20%", backgroundColor: "#E5E8EB", borderColor: "transparent", color: "black"}} 
+                                connectModal={{
+                                    size: "wide",
+                                    showThirdwebBranding: false,
+                                }}
+                            />
                         }
-                        
                     </MobileList>
                 }
             </NavContainer>
