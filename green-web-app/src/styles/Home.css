@@ -12,6 +12,10 @@
   margin: 0 auto;
 }
 
+.gradient-button {
+  background:  -webkit-linear-gradient(#bfa3da, #84309c, #c735b0);
+}
+
 .gradient-text-0 {
   background: -webkit-linear-gradient(#bfa3da, #84309c, #c735b0);
   -webkit-background-clip: text;
@@ -27,14 +31,14 @@
 }
 
 .gradient-text-2 {
-  background: -webkit-linear-gradient(#bfa3da, #743f93);
+  background: -webkit-linear-gradient(#a9daa3, #2d8647);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .gradient-text-3 {
-  background: -webkit-linear-gradient(#c35ab1, #e9a8d9);
+  background: -webkit-linear-gradient(#181718, #130810);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -149,4 +153,12 @@
 }
 .logo img {
   filter: invert(1);
+}
+
+.nftImage {
+  width: 20% !important;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.04);
+  object-fit: cover;
+  margin-left: 31px;
 }

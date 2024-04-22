@@ -3,7 +3,7 @@ import "./component.css";
 import { useNavigate } from 'react-router-dom';
 import { Nav, NavContainer, NavBody, NavText, NavButton, NavImg, NavHam, MobileList, MobileLink } from './styled-components';
 import { profile, green, hamburger } from '../assests/index';
-import { ConnectWallet, inAppWallet, useAddress, useDisconnect } from "@thirdweb-dev/react";
+import { ConnectWallet, useAddress, useDisconnect } from "@thirdweb-dev/react";
 
 function NavBar(){
     let navigate = useNavigate();

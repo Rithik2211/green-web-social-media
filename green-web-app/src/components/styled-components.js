@@ -104,3 +104,13 @@ export const MobileLink = styled.div`
     border-bottom : 2px solid #854CE6;
    }
 `;
+
+export const NftCardDetails = styled.div`
+    display : flex;
+    flex-direction : row;
+    flex-wrap : wrap;
+    justify-content : space-between;
+    align-items : center;
+    width : 100%;
+    height : 70%;
+`;
