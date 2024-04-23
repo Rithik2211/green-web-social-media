@@ -13,13 +13,7 @@ function Login(){
                 <h1 className='gradient-text-2'>
                     Login to Join the Green Web!!
                 </h1>
-                <ConnectEmbed 
-                    theme="dark" 
-                    connectModal={{
-                        size: "wide",
-                        showThirdwebBranding: false,
-                    }}
-                />
+                <ConnectEmbed theme="dark" />
             </div>
         </div>
       ); 
