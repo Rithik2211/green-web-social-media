@@ -162,3 +162,38 @@
   object-fit: cover;
   margin-left: 31px;
 }
+
+.loginMain {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 91vh;
+  width: 95%;
+  padding: 24px;
+  background-color: #ffffff;
+}
+
+.imgContainer {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 16px;
+  height: 100%;
+  width: 50%;
+  gap: 8px;
+  min-width: 28rem;
+  background-color: linear-gradient(180deg, #fcfdff -21.01%, #f1f4fc 100%);
+}
+
+.loginBox {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  gap: 16px;
+  background-color: #ffffff;
+}

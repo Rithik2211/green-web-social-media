@@ -1,13 +1,14 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import { ThirdwebProvider, coinbaseWallet, embeddedWallet, metamaskWallet, phantomWallet, rainbowWallet, trustWallet, zerionWallet } from "@thirdweb-dev/react";
+import { ThirdwebProvider, coinbaseWallet, embeddedWallet, metamaskWallet, phantomWallet, rainbowWallet, trustWallet, useAddress, zerionWallet } from "@thirdweb-dev/react";
 import "./styles/globals.css";
-import LandingPage from './pages/landing-page';
+import App from "./App";
 
-const activeChain = "polygon";
+const activeChain = "polygon"
 
 const container = document.getElementById("root");
 const root = createRoot(container);
+
 root.render(
   <React.StrictMode>
     <ThirdwebProvider
@@ -23,7 +24,7 @@ root.render(
         zerionWallet()
       ]}
     >
-      <LandingPage />
+      <App />
     </ThirdwebProvider>
   </React.StrictMode>
 );

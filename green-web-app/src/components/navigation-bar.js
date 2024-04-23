@@ -41,7 +41,7 @@ function NavBar(){
                     >New Post</div>
                     <ConnectWallet theme={"light"} className="custom-connect-wallet" style={{padding : "1px 5px", width: "20%", backgroundColor: "#E5E8EB", borderColor: "transparent", color: "black"}}/>
                     {
-                        address &&  <NavButton ><NavImg src={profile} alt='profile'/></NavButton>
+                        address &&  <NavButton><NavImg src={profile} alt='profile'/></NavButton>
                     }
                 </NavBody>
                 {
@@ -52,7 +52,7 @@ function NavBar(){
                         <MobileLink onClick={handleHamNav("/Messages")}>Messages</MobileLink>
                         <MobileLink onClick={handleHamNav("/Post")}>New Post</MobileLink>
                         {
-                            address &&   <MobileLink onClick={handleHamNav("/")} >Profile</MobileLink>
+                            address &&   <MobileLink >Profile</MobileLink>
                         }
                         {
                             address ? <MobileLink onClick={disconnect}>Disconnect</MobileLink>  :
