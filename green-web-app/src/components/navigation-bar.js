@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import "./component.css";
 import { useNavigate } from 'react-router-dom';
 import { Nav, NavContainer, NavBody, NavText, NavButton, NavImg, NavHam, MobileList, MobileLink } from './styled-components';
-import { profile, green, hamburger } from '../assests/index';
+import { profile, hamburger, logo1 } from '../assests/index';
 import { ConnectWallet, useAddress, useDisconnect } from "@thirdweb-dev/react";
 
 function NavBar(){
@@ -25,8 +25,7 @@ function NavBar(){
         <Nav>
             <NavContainer>
                 <div style={{display: "flex", flexDirection: "row"}}>
-                    <img src={green} style={{height: "50px", width: "50px"}} alt='green'/>
-                    <div style={{marginTop: "14px", fontWeight: "600", fontFamily: "sans-serif", fontSize: "20px"}}>Green Web</div>
+                    <img src={logo1} style={{height: "150px", width: "150px"}} alt='EcoSync'/>
                 </div>
                 <div>
                     <NavHam src={hamburger} alt='hamburger' onClick={() => handleHamClick()}/>

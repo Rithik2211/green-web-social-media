@@ -1,6 +1,6 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import { ThirdwebProvider, coinbaseWallet, embeddedWallet, metamaskWallet, phantomWallet, rainbowWallet, trustWallet, useAddress, zerionWallet } from "@thirdweb-dev/react";
+import { ThirdwebProvider, coinbaseWallet, embeddedWallet, metamaskWallet, phantomWallet, rainbowWallet, trustWallet, zerionWallet } from "@thirdweb-dev/react";
 import "./styles/globals.css";
 import App from "./App";
 
