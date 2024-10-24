@@ -7,7 +7,7 @@ function Login(){
     return (
         <div className='loginMain'>
             <div className='imgContainer'>
-                <img src={logo1} alt='message' draggable="false" style={{width: "100%", height: "100%"}}/>
+                <img src={logo1} alt='EcoSync Logo' draggable="false" style={{width: "100%", height: "100%"}}/>
             </div>
             <div className='loginBox'>
                 <h1 style={{color: '#fffff'}}>
