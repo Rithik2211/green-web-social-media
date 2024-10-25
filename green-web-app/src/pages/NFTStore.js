@@ -10,14 +10,14 @@ function NFTStore(){
     return(
         <div style={{display: "flex", flexDirection: "column", padding: "20px", gap: "4px"}}>
             <motion.div 
-                variants={fadeIn('up',0.2)}
+                variants={fadeIn('down',0.2)}
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{once: false, amount: 0.7}}>
                 <h1 className='gradient-text-0'> NFT Art Work</h1>
             </motion.div>
             <motion.div 
-                variants={fadeIn('down',0.2)}
+                variants={fadeIn('up',0.2)}
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{once: false, amount: 0.7}}
