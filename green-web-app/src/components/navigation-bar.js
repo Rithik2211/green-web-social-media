@@ -33,7 +33,7 @@ function NavBar(){
                 <NavBody>
                     <NavText onClick={handleNavClick("/")} >Home</NavText>
                     <NavText onClick={handleNavClick("/NFTStore")}>NFT Store</NavText>
-                    <NavText onClick={handleNavClick("/Messages")}>Messages</NavText>
+                    <NavText onClick={handleNavClick("/Messages")}>Chat</NavText>
                     <div 
                     style={{borderRadius: "8px", backgroundColor: "#1AE570", padding: "6px 20px", color: "#0D1C12", fontFamily: "sans-serif"}}
                     onClick={handleNavClick("/Post")}
@@ -48,7 +48,7 @@ function NavBar(){
                     <MobileList isOpen={open}>
                         <MobileLink onClick={handleHamNav("/")} >Home</MobileLink>
                         <MobileLink onClick={handleHamNav("/NFTStore")}>NFT Store</MobileLink>
-                        <MobileLink onClick={handleHamNav("/Messages")}>Messages</MobileLink>
+                        <MobileLink onClick={handleHamNav("/Messages")}>Chat</MobileLink>
                         <MobileLink onClick={handleHamNav("/Post")}>New Post</MobileLink>
                         {
                             address &&   <MobileLink >Profile</MobileLink>

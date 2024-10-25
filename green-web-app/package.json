@@ -12,6 +12,7 @@
     "assert": "^2.0.0",
     "browserify-zlib": "latest",
     "ethers": "^5",
+    "framer-motion": "^11.11.9",
     "http": "npm:http-browserify",
     "http-browserify": "latest",
     "https": "npm:https-browserify",
