@@ -11,6 +11,7 @@
     "@thirdweb-dev/sdk": "^4",
     "assert": "^2.0.0",
     "browserify-zlib": "latest",
+    "caniuse-lite": "^1.0.30001673",
     "ethers": "^5",
     "framer-motion": "^11.11.9",
     "http": "npm:http-browserify",
