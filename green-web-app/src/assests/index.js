@@ -3,7 +3,7 @@ import notify from './images/notify.png';
 import profile from './images/profile1.png';
 import green from './images/greenWebSymbol.png';
 import hamburger from './images/hamburger.png';
-import trees from './images/trees.jpg';
+import trees from './images/trees.png';
 import sample from './images/sample.png';
 import women from './images/women.png';
 import nft1 from './images/nft-1.jpeg';
