@@ -26,7 +26,9 @@ import login1 from './images/login1.jpeg';
 import login2 from './images/login-2.png';
 import login3 from './images/login3.jpeg';
 import logo1 from './images/logo1.png';
+import demo2 from './images/demo2.png';
+import demo3 from './images/demo3.png';
 
 export { search, notify, profile, green, hamburger, trees, sample, women,
     nft1, nft2, nft3, nft4, nft5, nft6, nft7, nft8, nft9, nft10, nft11, nft12, arrow, 
-    arrowleft, message, post, login1, login2, login3, logo1};
+    arrowleft, message, post, login1, login2, login3, logo1, demo2, demo3};
