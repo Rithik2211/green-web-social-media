@@ -1,7 +1,7 @@
 import React from 'react';
 import { women, demo2, trees, demo3 } from '../assests/index';
-// import {motion} from 'framer-motion';
-// import { fadeIn } from '../variants';
+import {motion} from 'framer-motion';
+import { fadeIn } from '../variants';
 
 function Home(){
     return(
@@ -32,7 +32,10 @@ function Home(){
                 <h2 style={{fontFamily: "sans-serif"}}>Meet Some of the Users</h2>
             </motion.div>
         </div> */}
-        <div className='relative h-[500px] rounded-lg mx-4 my-6 overflow-hidden'>
+        <motion.div 
+            variants={fadeIn('down',0.2)}
+            initial="hidden"
+            whileInView={"show"} className='relative h-[500px] rounded-lg mx-4 my-6 overflow-hidden'>
             <img src={demo3} alt='trees' className='rounded-lg w-full ' style={{objectFit: "cover"}}/>
             <div className='absolute inset-0 flex flex-col justify-center items-center text-white p-6'>
                 <h1 className='text-5xl mb-4'>Welcome to EcoSync!!</h1>
@@ -42,10 +45,13 @@ function Home(){
                     <button className='absolute right-1 top-1/2 transform -translate-y-1/2 rounded-full bg-green-400 px-3 py-1 '>Search</button>
                 </div>
             </div>
-        </div>
-        <div className='rounded-lg mx-4 my-6 overflow-hidden '>
+        </motion.div>
+        <motion.div 
+            variants={fadeIn('down',0.2)}
+            initial="hidden"
+            whileInView={"show"} className='rounded-lg mx-4 my-6 overflow-hidden '>
             <img src={women}  alt='women' className='rounded-lg m-[20px] relative ml-5 '/>
-        </div>
+        </motion.div>
     </div>
     ) 
 }
